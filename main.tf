@@ -9,7 +9,7 @@ resource "aws_instance" "flugel" {
     Owner = "InfraTeam"
   }
 }
-  
+
 resource "aws_s3_bucket" "flugelb" {
   bucket = "flugelbucket"
   acl    = "private"
