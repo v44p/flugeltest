@@ -1,7 +1,7 @@
 provider "aws" {
 	region = "us-east-1"
-	access_key = var.my_access_key
-	secret_key = var.my_secret_key 
+	shared_credentials_file = "/home/nitrikto/.aws/credentials"
+  profile = "nitriktop"
   default_tags {
     tags = {
       Name = "Flugel"
