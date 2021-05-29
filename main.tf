@@ -1,5 +1,5 @@
 provider "aws" {}
-resource "aws_instance" "Flugel" {
+resource "aws_instance" "flugel" {
   ami           = "ami-0d5eff06f840b45e9"
   instance_type = "t2.micro" 
   tags = {
