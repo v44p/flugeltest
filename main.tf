@@ -12,10 +12,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "Flugel" {
-  ami           = "ami-0d5eff06f840b45e9"
+  ami           = "ami-0d5d9d301c853a04a"
   instance_type = "t2.micro"
-  
-}
+  }
 
 resource "aws_s3_bucket" "b" {
   bucket = "flugelbucket"
