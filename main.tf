@@ -1,7 +1,5 @@
-provider "aws" {
+provider "aws"{
 	region = "us-east-1"
-	shared_credentials_file = "/home/nitrikto/.aws/credentials"
-  profile = "nitriktop"
   default_tags {
     tags = {
       Name = "Flugel"
