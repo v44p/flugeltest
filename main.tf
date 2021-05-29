@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "Flugel" {
-  ami           = "ami-0d5d9d301c853a04a"
+  ami           = "ami-04468e03c37242e1e"
   instance_type = "t2.micro"
   }
 
