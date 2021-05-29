@@ -17,7 +17,7 @@ resource "aws_instance" "Flugel" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "FlugelBucket"
+  bucket = "flugelbucket"
   acl    = "private"
 }
 
