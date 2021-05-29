@@ -12,16 +12,12 @@ provider "aws" {
 }
 
 resource "aws_instance" "Flugel" {
+  ami           = "ami-0d5eff06f840b45e9"
   instance_type = "t2.micro"
-  ami = "ami-09d19e919d57453f8"
+  
 }
 
 resource "aws_s3_bucket" "b" {
   bucket = "flugelbucket"
   acl    = "private"
-}
-
-resource "aws_vpc" "flugel" {
-  cidr_block = "10.0.0.0/16"
-
 }
