@@ -1,7 +1,6 @@
 provider "aws" { 
   
   region                  = "us-east-1"
-  shared_credentials_file = "/home/nitrikto/flugeltest/credentials"
   default_tags {
     tags = {
       Name = "Flugel"
